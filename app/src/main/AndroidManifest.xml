@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="levkaantonov.com.study.googlemapsexample">
-
+    package="levkaantonov.com.study.gpsexample">
+    
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleMapsExample">
         <activity
-            android:name=".MainActivity"
+            android:name="levkaantonov.com.study.gpsexample.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

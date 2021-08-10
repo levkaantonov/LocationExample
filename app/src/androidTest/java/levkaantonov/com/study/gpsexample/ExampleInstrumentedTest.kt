@@ -1,4 +1,4 @@
-package levkaantonov.com.study.googlemapsexample
+package levkaantonov.com.study.gpsexample
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

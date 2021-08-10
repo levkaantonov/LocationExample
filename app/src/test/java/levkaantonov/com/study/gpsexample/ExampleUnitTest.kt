@@ -1,4 +1,4 @@
-package levkaantonov.com.study.googlemapsexample
+package levkaantonov.com.study.gpsexample
 
 import org.junit.Test
 
